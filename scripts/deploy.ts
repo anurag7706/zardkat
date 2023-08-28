@@ -22,6 +22,7 @@ function p256(n: any): BigNumber {
   return BigNumber.from(nstr);
 }
 
+
 async function generateCallData(): Promise<ICallData> {
   let zkProof = await generateProof();
 
